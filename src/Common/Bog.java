@@ -1,3 +1,5 @@
+package Common;
+
 public class Bog {
     private TextFil tekst;
     private String titel;
@@ -29,7 +31,7 @@ public class Bog {
 
     @Override
     public String toString() {
-        return "Bog{" +
+        return "Common.Bog{" +
                 "tekst=" + tekst +
                 ", titel='" + titel + '\'' +
                 ", forfatter='" + forfatter + '\'' +

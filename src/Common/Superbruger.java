@@ -1,3 +1,5 @@
+package Common;
+
 public class Superbruger extends Bruger{
     private BrugerListe brugerListe;
 

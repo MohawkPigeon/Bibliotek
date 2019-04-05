@@ -1,3 +1,5 @@
+package Common;
+
 public class LoginInf {
 
     private String brugernavn;
@@ -16,4 +18,11 @@ public class LoginInf {
         return password;
     }
 
+    public void setBrugernavn(String brugernavn) {
+        this.brugernavn = brugernavn;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

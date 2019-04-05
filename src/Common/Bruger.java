@@ -1,3 +1,5 @@
+package Common;
+
 public class Bruger {
     private LoginInf Loginfo;
     private Bogliste bogliste;

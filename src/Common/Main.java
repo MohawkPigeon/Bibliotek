@@ -1,4 +1,6 @@
-import javax.management.AttributeList;
+package Common;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -10,9 +12,10 @@ public class Main {
             }
         };
 
-        SuperBogListe superBogListe=new SuperBogListe(new AttributeList());
+        SuperBogListe superBogListe=new SuperBogListe(new ArrayList());
         superBogListe.addBog(new Bog(textFil,"Femto","Gren",0));
         System.out.println(superBogListe.getBog(0).toString());
+
 
     }
 }
